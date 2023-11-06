@@ -1,7 +1,7 @@
 #ifndef INGENIERO_H
 #define INGENIERO_H
 
-#include "Personaje.h"
+#include "personaje.h"
 
 class Ingeniero : public Personaje {
 public:
@@ -9,4 +9,4 @@ public:
     void actuar() override;
 };
 
-#endif
+#endif // INGENIERO_H

@@ -1,4 +1,4 @@
-#include "Ingeniero.h"
+#include "ingeniero.h"
 
 Ingeniero::Ingeniero(int salud, int fuerza, int alcance) : Personaje(salud, fuerza, alcance) {
     // Inicialización específica del ingeniero si es necesario

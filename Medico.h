@@ -1,7 +1,7 @@
 #ifndef MEDICO_H
 #define MEDICO_H
 
-#include "Personaje.h"
+#include "personaje.h"
 
 class Medico : public Personaje {
 public:
@@ -9,4 +9,4 @@ public:
     void actuar() override;
 };
 
-#endif
+#endif // MEDICO_H

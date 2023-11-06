@@ -2,9 +2,9 @@
 #include <vector>
 #include <chrono>
 #include <thread>
-#include "Personaje.h"
-#include "Medico.h"
-#include "Ingeniero.h"
+#include "personaje.h"
+#include "medico.h"
+#include "ingeniero.h"
 
 using namespace std;
 
@@ -25,7 +25,7 @@ int main() {
     crearCampoDeBatalla(longitudCampo);
 
     // Lógica del juego
-    while(/* condición para continuar el juego */) {
+    while(true) {
         // Etapa de cálculos para el bando Oeste
         // Iterar a través de los personajes del bando Oeste y realizar las acciones correspondientes
 

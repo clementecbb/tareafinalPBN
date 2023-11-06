@@ -11,8 +11,8 @@ protected:
 public:
     Personaje(int salud, int fuerza, int alcance);
     virtual void actuar();
-    virtual void desplazarse();
+    void desplazarse(); // No es necesario que sea virtual si tiene una implementación común para todas las clases derivadas
     // Otros métodos y propiedades necesarios
 };
 
-#endif
+#endif // PERSONAJE_H
