@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <chrono>
+#include <thread>
 #include "Personaje.h"
 #include "Medico.h"
 #include "Ingeniero.h"
