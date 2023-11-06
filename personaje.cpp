@@ -11,3 +11,4 @@ void Personaje::actuar() {
 void Personaje::desplazarse() {
     // Implementación de la lógica de desplazamiento general del personaje
 }
+// al cleme le gusta el pene
