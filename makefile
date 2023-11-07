@@ -1,3 +1,7 @@
+EXE = main
+COMP = g++
+FLAGS = -Wall
+
 main: main.o Personaje.o Medico.o Ingeniero.o
 	g++ -o main main.o Personaje.o Medico.o Ingeniero.o
 
@@ -15,3 +19,11 @@ Ingeniero.o: Ingeniero.cpp Ingeniero.h
 
 clean:
 	rm -rf *.o main
+
+run: scr $(EXE)
+	./$(EXE)
+	
+all: scr clean $(EXE)
+
+scr:
+	clear
