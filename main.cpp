@@ -36,7 +36,7 @@ int main() {
         mostrarCampoDeBatalla();
 
         // Hacer una pausa para observar los cambios en el campo de batalla
-        this_thread::sleep_for(chrono::milliseconds(1000)); // Cambia el valor de milisegundos según tus necesidades
+        //this_thread::sleep_for(chrono::milliseconds(1000)); // Cambia el valor de milisegundos según tus necesidades
     }
 
     // Mostrar el resultado del juego
