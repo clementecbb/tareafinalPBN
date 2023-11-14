@@ -13,4 +13,3 @@ public:
     void actuar();
 };
 
-#endif // MEDICO_H
