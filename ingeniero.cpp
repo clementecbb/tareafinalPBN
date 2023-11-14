@@ -10,3 +10,4 @@ Ingeniero::Ingeniero(int s, int f, int a) : Personaje(salud, fuerza, alcance) {
 void Ingeniero::actuar() {
     // Implementación específica de las acciones del ingeniero
 }
+
