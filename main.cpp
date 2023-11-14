@@ -3,18 +3,26 @@
 #include <chrono>
 #include <thread>
 #include "personaje.h"
-#include "medico.h"
+//#include "medico.h"
 #include "ingeniero.h"
 
 using namespace std;
 
 // Función para crear el campo de batalla y posicionar a los personajes
-void crearCampoDeBatalla(int longitud) {
-    int columna = 2, fila;
-    cout << "ingrese el numvero de filas ,entre 15 y 40" ; 
-    cin >> fila;
+void crearCampoDeBatalla(int fila) {
+    int columna = 4 ;
 
     int ** matriz = new int*[fila];
+    for (int i = 0; i < fila; ++i) {
+        matriz[i] = new int[columna];
+    }
+    // algo
+    
+    for (int i = 0; i < fila; ++i) {
+        delete[] matriz[i];
+    }
+    delete[] matriz;
+
 }
 
 // Función para mostrar el campo de batalla en la pantalla
@@ -23,10 +31,12 @@ void mostrarCampoDeBatalla() {
 }
 
 int main() {
-    int longitudCampo = 20; // Aquí puedes definir la longitud del campo de batalla
-
+  // Aquí puedes definir la longitud del campo de batalla
+  int fila;
+    cout << "ingrese el numvero de filas ,entre 15 y 40" ; 
+    cin >> fila;
     // Crear el campo de batalla y posicionar a los personajes
-    crearCampoDeBatalla(longitudCampo);
+    crearCampoDeBatalla(fila);
 
     // Lógica del juego
     while(true) {
