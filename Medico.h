@@ -8,7 +8,11 @@ private:
 
 
 public:
-    Medico(int salud, int fuerza, int alcance);
+    Medico(int , int , int );
+    int salud;
+    int fuerza;
+    int alcance;
+    
     void actuar();
 };
 

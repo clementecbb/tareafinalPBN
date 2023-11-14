@@ -6,7 +6,11 @@
 class Ingeniero : public Personaje {
 private:
 public:
-    Ingeniero(int salud, int fuerza, int alcance);
+	Ingeniero(int , int , int );
+    int salud;
+    int fuerza;
+    int alcance;
+    
     void actuar();
 };
 
