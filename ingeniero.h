@@ -11,4 +11,4 @@ public:
     void actuar();
 };
 
-#endif // INGENIERO_H
+

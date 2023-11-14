@@ -18,4 +18,3 @@ public:
     // Otros métodos y propiedades necesarios
 };
 
-#endif // PERSONAJE_H
