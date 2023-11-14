@@ -1,6 +1,3 @@
-#ifndef PERSONAJE_H
-#define PERSONAJE_H
-
 class Personaje {
 private:
     int saludBase;
@@ -15,6 +12,8 @@ public:
    	int alcance;
    	
    	void actuar();
+   	
+   	
     void desplazarse(); // No es necesario que sea virtual si tiene una implementación común para todas las clases derivadas
     // Otros métodos y propiedades necesarios
 };
