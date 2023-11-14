@@ -4,9 +4,12 @@
 #include "personaje.h"
 
 class Medico : public Personaje {
+private:
+
+
 public:
     Medico(int salud, int fuerza, int alcance);
-    void actuar() override;
+    void actuar();
 };
 
 #endif // MEDICO_H

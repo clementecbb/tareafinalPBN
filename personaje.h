@@ -2,7 +2,7 @@
 #define PERSONAJE_H
 
 class Personaje {
-protected:
+private:
     int saludBase;
     int fuerzaMax;
     int alcanceMax;
@@ -10,7 +10,7 @@ protected:
 
 public:
     Personaje(int salud, int fuerza, int alcance);
-    virtual void actuar();
+   	void actuar();
     void desplazarse(); // No es necesario que sea virtual si tiene una implementación común para todas las clases derivadas
     // Otros métodos y propiedades necesarios
 };

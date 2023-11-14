@@ -4,9 +4,10 @@
 #include "personaje.h"
 
 class Ingeniero : public Personaje {
+private:
 public:
     Ingeniero(int salud, int fuerza, int alcance);
-    void actuar() override;
+    void actuar();
 };
 
 #endif // INGENIERO_H
