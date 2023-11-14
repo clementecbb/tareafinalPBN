@@ -1,7 +1,10 @@
-class campobatalla{
-private:
+using namespace std;
 
-public:
+class campobatalla{
+
+	private:
+
+	public:
 	
 	
 	

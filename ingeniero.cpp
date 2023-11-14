@@ -1,6 +1,9 @@
 #include "ingeniero.h"
 
-Ingeniero::Ingeniero(int salud, int fuerza, int alcance) : Personaje(salud, fuerza, alcance) {
+Ingeniero::Ingeniero(int s, int f, int a) : Personaje(salud, fuerza, alcance) {
+    salud = s;
+    fuerza = f;
+    alcance = a;
     // Inicialización específica del ingeniero si es necesario
 }
 
