@@ -10,7 +10,11 @@ using namespace std;
 
 // Función para crear el campo de batalla y posicionar a los personajes
 void crearCampoDeBatalla(int longitud) {
-    // Lógica para crear el campo de batalla según las reglas establecidas
+    int columna = 2, fila;
+    cout << "ingrese el numvero de filas ,entre 15 y 40" ; 
+    cin >> fila;
+
+    int ** matriz = new int*[fila];
 }
 
 // Función para mostrar el campo de batalla en la pantalla
