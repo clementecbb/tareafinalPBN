@@ -1,5 +1,9 @@
+
+using namespace std;
+
+
 class Personaje {
-private:
+private: 
     int saludBase;
     int fuerzaMax;
     int alcanceMax;

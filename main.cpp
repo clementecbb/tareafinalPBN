@@ -33,7 +33,7 @@ void mostrarCampoDeBatalla() {
 int main() {
   // Aquí puedes definir la longitud del campo de batalla
   int fila;
-    cout << "ingrese el numvero de filas ,entre 15 y 40" ; 
+    cout << "ingrese el numero de filas ,entre 15 y 40" ; 
     cin >> fila;
     // Crear el campo de batalla y posicionar a los personajes
     crearCampoDeBatalla(fila);
