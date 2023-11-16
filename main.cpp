@@ -29,15 +29,27 @@ void crearCampoDeBatalla(int fila) {
 void mostrarCampoDeBatalla() {
     // Lógica para mostrar el campo de batalla y el estado del juego
 }
+void pausa(int tiempo) {
+	this_thread::sleep_for(chrono::milliseconds(tiempo));
+}
 
-int main() {
+
+int main() { 
   // Aquí puedes definir la longitud del campo de batalla
   int fila;
     cout << "ingrese el numero de filas ,entre 15 y 40" ; 
     cin >> fila;
     // Crear el campo de batalla y posicionar a los personajes
     crearCampoDeBatalla(fila);
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
     // Lógica del juego
     while(true) {
         // Etapa de cálculos para el bando Oeste
@@ -49,8 +61,6 @@ int main() {
         // Mostrar el campo de batalla en la pantalla
         mostrarCampoDeBatalla();
 
-        // Hacer una pausa para observar los cambios en el campo de batalla
-        //this_thread::sleep_for(chrono::milliseconds(1000)); // Cambia el valor de milisegundos según tus necesidades
     }
 
     // Mostrar el resultado del juego
